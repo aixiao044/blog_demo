@@ -1,0 +1,98 @@
+---
+author: jzh
+tags: 
+     - javascript
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <div id="song-box">
+        <!-- -->
+        <div class="top">
+            <a href="#" class="today">
+                <p class="">周二</p>
+                <p class="other">09月06日</p>
+                <div class="weather-pic" style="margin-top:12px">
+                    <img src="">
+                </div>
+                <p class="other">31 ~ 2℃</p>
+                <p class="other" title="多云转阴"> 多云转阴 </p>
+                <p class="other">微风</p>
+            </a>
+            <a href="#" class="next-one">
+                <div class="line"></div>
+                <p class="">周二</p>
+                <p class="other"></p>
+                <div class="weather-pic" style="margin-top:12px">
+                    <img src="">
+                </div>
+                <p class="other">31 ~ 20℃</p>
+                <p class="other" title="多云转阴"> 多云转阴 </p>
+                <p class="other">微风</p>
+            </a>
+            <a href="#" class="next-two">
+                <div class="line"></div>
+                <p class="">周二</p>
+                <p class="other"></p>
+                <div class="weather-pic" style="margin-top:12px">
+                    <img src="">
+                </div>
+                <p class="other">31 ~ 20℃</p>
+                <p class="other" title="多云转阴"> 多云转阴 </p>
+                <p class="other">微风</p>
+            </a>
+            <a href="#" class="next-three">
+                <div class="line"></div>
+                <p class="">周二</p>
+                <p class="other"></p>
+                <div class="weather-pic" style="margin-top:12px">
+                    <img src="">
+                </div>
+                <p class="other">31 ~ 20℃</p>
+                <p class="other" title="多云转阴"> 多云转阴 </p>
+                <p class="other">微风</p>
+            </a>
+            <div style="clear: both"></div>
+        </div>
+        <div id="current">
+            <p></p>
+            <p>今天天气</p>
+            <p class="weather-day"></p>
+            <p>北京时间(Beijing): </p>
+            <p id="time"></p>
+        </div>
+        <!-- -->
+        <div class="foot">
+            <div class="wrap">
+                <div class="quote-text">
+                    <i class="fa-quote-left"> </i><span id="text"></span>
+                </div>
+                <div class="quote-author">
+                    - <span id="author"></span>
+                </div>
+                <div class="buttons">
+                    <button class="button" id="baidu-quote" title="" target="_blank">
+                        必应搜一下
+                    </button>
+                    <button class="button" id="new-quote">下一句</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/js/weather/youdao.css">
+    <script type="text/javascript" src="{{ site.baseurl }}/js/weather/jquery-min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/weather/youdao.js"></script>
+
+</body>
+
+</html>

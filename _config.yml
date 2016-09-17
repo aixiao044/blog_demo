@@ -1,0 +1,26 @@
+title: My Blog
+header-img: img/home-bg.jpg
+# Site settings
+baseurl: /blog_demo 
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 5
+anchorjs: true
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Markdown settings
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                          # use Github Flavored Markdown !important
+  
+sidebar: true 
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+

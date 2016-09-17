@@ -1,0 +1,190 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #song-box {
+        margin: 0 auto;
+        border-radius: 3px;
+        position: relative;
+        width: 538px;
+        height: 604px;
+        display: table;
+        background-color: #CC6699;
+        padding: 1px;
+    }
+    
+    .top {
+        background-color: #CC0066;
+        float: right;
+    }
+    
+    a {
+        border: medium none;
+        height: 250px;
+        outline: medium none;
+        position: absolute;
+        text-decoration: none;
+        width: 89px;
+        z-index: 20;
+        position: relative;
+        float: left;
+        font-size: 13px;
+        line-height: 1.54;
+    }
+    
+    a:hover {
+        background-color: #CC00FF;
+    }
+    
+    .line {
+        background: #fff none repeat scroll 0 0;
+        height: 180px;
+        left: 0px;
+        opacity: 0.45;
+        position: absolute;
+        top: 48px;
+        width: 1px;
+        color: #fff;
+    }
+    
+    p {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        line-height: 1em;
+        text-align: center;
+        /* text-shadow: 1px 1px 1px #555; */
+        margin-top: 15px;
+    }
+    
+    p.other {
+        padding: 8px;
+        margin: 1px;
+    }
+    
+    .weather-pic {
+        text-align: center;
+    }
+    
+    .test {
+        height: 250px;
+        position: absolute;
+        width: 89px;
+        z-index: -1;
+    }
+    
+    .foot {
+        width: 538px;
+        height: 58%;
+        text-align: center;
+        position: absolute;
+        bottom: 2px;
+        background-color: #CC0099;
+        position: absolute;
+    }
+    
+    .wrap {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -225px;
+    }
+    
+    .quote-text {
+        text-align: center;
+        width: 450px;
+        height: 200px;
+        clear: both;
+        font-weight: 500;
+        font-size: 1.75em;
+        background-color: #9999CC;
+    }
+    
+    .quote-text i {
+        font-size: 1.0em;
+        margin-right: 0.4em;
+    }
+    
+    .quote-author {
+        width: 450px;
+        height: auto;
+        clear: both;
+        padding-top: 20px;
+        font-size: 1em;
+        text-align: right;
+        margin-bottom: 30px;
+        background-color: #99CCCC;
+        color:#AA0000;
+        font-style: italic;
+    }
+    
+    .buttons {
+        width: 450px;
+        margin: auto;
+        display: block;
+    }
+    
+    .buttons .button {
+        height: 38px;
+        border: none;
+        border-radius: 3px;
+        color: #333;
+        background-color: #99CCCC;
+        outline: none;
+        font-size: 0.85em;
+        padding: 8px 18px 6px 18px;
+        margin-bottom: 30px;
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    .buttons .button:hover {
+        opacity: 0.9;
+    }
+    
+    .buttons .button#baidu-quote {
+        float: left;
+        padding: 0px;
+        text-align: center;
+        font-size: 0.85em;
+        margin-right: 5px;
+        line-height: 38px;
+        width: 100px;
+    }
+   
+    
+    .buttons .button#new-quote {
+        float: right;
+    }
+    #text{
+        color:#fff;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: 400;
+    }
+
+    #current{
+        width: 180px;
+        height:250px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: #CCCCFF;
+        border-radius: 4px;
+        opacity: 4.5;
+        color:#fff;
+
+    }
+    
+    #current p{
+        text-align: left;
+        padding: 0 0 0 10px;
+        word-wrap: break-word;
+        margin-top: 15px;  
+    }
